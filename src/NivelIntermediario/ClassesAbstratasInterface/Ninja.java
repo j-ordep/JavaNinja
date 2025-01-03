@@ -6,11 +6,11 @@ public abstract class Ninja {
     String aldeia;
     int idade;
 
-    public abstract void nomeDoNinja();
-
-    public void tacarKunai(){
-        System.out.println( nome + "tacou uma kanai");
+    public void nomeDoNinja(){
+        System.out.println("meu nome é " + nome);
     }
 
+    public abstract void tacarKunai();
 
+    
 }
