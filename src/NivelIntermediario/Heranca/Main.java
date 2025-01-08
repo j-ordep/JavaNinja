@@ -3,11 +3,6 @@ package NivelIntermediario.Heranca;
 public class Main {
     public static void main(String[] args) {
 
-        Ninja joao = new Uzumaki();
-        joao.nome = "Joao";
-        joao.aldeia = "MJCP";
-
-
         Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia do Folha";
