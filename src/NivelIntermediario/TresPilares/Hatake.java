@@ -10,8 +10,6 @@ public class Hatake extends Ninja{
 
 
 
-
-
     @Override
     public void habilidadeEspecial() {
         System.out.println(nome + " usou a habilidade especial dos Hatake");
