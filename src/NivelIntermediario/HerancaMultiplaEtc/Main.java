@@ -1,10 +1,20 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancaMultiplaEtc;
 
 
 public class Main {
     public static void main(String[] args) {
 
         Uzumaki Naruto = new Uzumaki();
+
+        // brincando com toString()
+        System.out.println(Naruto);
+
+        System.out.println("---------------------");
+
+        Naruto.tacarKunai();
+
+        System.out.println("---------------------");
+
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 16;
@@ -25,6 +35,7 @@ public class Main {
         Itachi.habilidadeEspecial();
         Itachi.inteligenciaDeCombate(110);
 
+
         // Obj Uchiha 3 - sobrecarga de contrutores
         Uchiha Madara = new Uchiha("Madara", "Aldeia da Folha", 48, 900, NivelNinja.KAGE);
         Madara.habilidadeEspecial();
@@ -41,7 +52,6 @@ public class Main {
         Kakashi.sharinganAtivado();
         Kakashi.ninjaDeElite();
         Kakashi.inteligenciaDeCombate(148);
-
 
 
 

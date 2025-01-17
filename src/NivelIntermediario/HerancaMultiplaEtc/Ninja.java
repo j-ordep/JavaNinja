@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancaMultiplaEtc;
 
 public abstract class Ninja implements EstrategiaDeBatalha {
 
@@ -10,7 +10,8 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
-    double altura;
+   double altura = 2.10;
+   // final = constante
 
 
     // Deixa essa bosta aqui e constroi uma nova que se referencia a essa para não quebrar a aplicação
@@ -59,8 +60,14 @@ public abstract class Ninja implements EstrategiaDeBatalha {
 
     }
 
+    // toda String já tem o metodo toString(), por isso se utiliza o Override, para modificar o método dentro da minha classe
+    @Override
+    public String toString() {
+        return "Esse é o toString()\nMeu nome é: " + nome + " minha aldeia é: " + aldeia + " minha idade é " + idade;
+    }
 
-
-
+    final void tacarKunai() { // final não pode ser sobreecrito
+        System.out.println("Esse é um método final da classe MÃE");
+    }
 
 }

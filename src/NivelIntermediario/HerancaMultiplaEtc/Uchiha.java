@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultipla;
+package NivelIntermediario.HerancaMultiplaEtc;
 
 public class Uchiha extends Ninja implements SharinganInterface {
 
@@ -14,7 +14,7 @@ public class Uchiha extends Ninja implements SharinganInterface {
         super();
     }
 
-    @Override
+    @Override // O Override evita erros de sintaxe ao sobrescrever um método, pq se o nome do metodo com o @Override estiver diferente do metodo original da erro.
     public void habilidadeEspecial() {
         System.out.println(nome + " utilizou sua habilidade especial, e já tem: " + numeroDeMissoesConcluidas + " missões concluidas");
     }
@@ -41,6 +41,7 @@ public class Uchiha extends Ninja implements SharinganInterface {
         }
 
     }
+
 
 
 }
