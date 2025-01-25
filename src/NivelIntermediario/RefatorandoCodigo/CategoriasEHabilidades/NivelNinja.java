@@ -1,4 +1,4 @@
-package NivelIntermediario.HerancaMultiplaEtc;
+package NivelIntermediario.RefatorandoCodigo.CategoriasEHabilidades;
 
 public enum NivelNinja {
 
@@ -6,7 +6,6 @@ public enum NivelNinja {
     CHUUNIN,
     JOUNIN,
     KAGE;
-
 
 
 }
