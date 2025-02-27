@@ -2,7 +2,6 @@ package NivelIntermediario.RefatorandoCodigo.Ninjas;
 
 import NivelIntermediario.RefatorandoCodigo.CategoriasEHabilidades.NivelNinja;
 import NivelIntermediario.RefatorandoCodigo.Interfaces.AnbuInterface;
-import NivelIntermediario.RefatorandoCodigo.Interfaces.EstrategiaDeBatalha;
 import NivelIntermediario.RefatorandoCodigo.Interfaces.SharinganInterface;
 
 public class Hatake extends Ninja implements SharinganInterface, AnbuInterface {

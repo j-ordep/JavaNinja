@@ -16,6 +16,13 @@ public class BolsaGenerica<T> {
         this.equipamentos.add(equipamentoGenerico);
     }
 
+    // for each
+    public void exibirEquipamentos() {
+        for (T equipamento: equipamentos) { // parametro T equipamento percorre a List equipamentos
+            System.out.println("exibir com for each: " + equipamento);
+        }
+    }
+
     public List<T> getEquipamentos() {
         return equipamentos;
     }

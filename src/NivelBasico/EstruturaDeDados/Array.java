@@ -1,7 +1,5 @@
 package NivelBasico.EstruturaDeDados;
 
-import java.util.Arrays;
-
 // Falando dobre Garbage Collection
 
 public class Array {
